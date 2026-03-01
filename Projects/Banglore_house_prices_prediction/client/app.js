@@ -1,5 +1,3 @@
-const API_URL = 'http://127.0.0.1:5000';
-
 // Load dropdown options when page loads
 document.addEventListener('DOMContentLoaded', function() {
     loadLocations();
@@ -9,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 async function loadLocations() {
     try {
-        const response = await fetch(`${API_URL}/get_location_names`);
+        const response = await fetch(`/api/get_location_names`);
         const data = await response.json();
         const select = document.getElementById('location');
         
@@ -27,7 +25,7 @@ async function loadLocations() {
 
 async function loadSocieties() {
     try {
-        const response = await fetch(`${API_URL}/get_society_names`);
+        const response = await fetch(`/api/get_society_names`);
         const data = await response.json();
         const select = document.getElementById('society');
         
@@ -45,7 +43,7 @@ async function loadSocieties() {
 
 async function loadAreaTypes() {
     try {
-        const response = await fetch(`${API_URL}/get_area_type_names`);
+        const response = await fetch(`/api/get_area_type_names`);
         const data = await response.json();
         const select = document.getElementById('area_type');
         
@@ -76,7 +74,7 @@ document.getElementById('predictionForm').addEventListener('submit', async funct
     };
     
     try {
-        const response = await fetch(`${API_URL}/predict_home_price`, {
+        const response = await fetch(`/api/predict_home_price`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
