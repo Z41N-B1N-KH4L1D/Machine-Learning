@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you split data with train_test_split?","from sklearn.model_selection import train_test_split; X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)"
+"Code: How do you stratify a split?","train_test_split(..., stratify=y)"
+"Method: What does test_size control?","The proportion or count of samples in the test set."
+"Method: Why set random_state?","To make splits reproducible."
+"Concept: What is data leakage?","Using test data information during training."
+"Concept: Why keep a hold-out test set?","To estimate generalization after model selection."
+"Interview: When use a time-based split?","For time series to avoid look-ahead bias."
+"Interview: How do you handle class imbalance in splits?","Use stratification to preserve class proportions."

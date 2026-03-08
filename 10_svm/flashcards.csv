@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you train an SVM classifier?","from sklearn.svm import SVC; model = SVC(kernel='rbf').fit(X, y)"
+"Code: How do you scale features for SVM?","Use StandardScaler before training."
+"Method: What is the margin in SVM?","Distance between the decision boundary and closest points."
+"Method: What is the kernel trick?","Implicitly map data to higher-dimensional space."
+"Concept: What are support vectors?","Points closest to the boundary that define it."
+"Concept: What does C control in SVM?","Regularization strength and misclassification penalty."
+"Interview: When use linear vs RBF kernel?","Linear for large sparse data; RBF for nonlinear patterns."
+"Interview: Why is scaling important for SVM?","Distance-based kernels are sensitive to feature scales."

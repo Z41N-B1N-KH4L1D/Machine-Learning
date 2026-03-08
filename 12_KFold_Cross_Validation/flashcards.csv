@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you create a KFold splitter?","from sklearn.model_selection import KFold; kf = KFold(n_splits=5, shuffle=True, random_state=42)"
+"Code: How do you use cross_val_score?","from sklearn.model_selection import cross_val_score; scores = cross_val_score(model, X, y, cv=5)"
+"Method: What is k-fold cross-validation?","Split into k folds, train on k-1, validate on 1."
+"Method: What is stratified k-fold?","Each fold preserves class proportions."
+"Concept: Why use cross-validation?","It provides a more stable generalization estimate."
+"Concept: What is data leakage in CV?","Preprocessing before splitting can leak information."
+"Interview: How do you choose k?","Use common values like 5 or 10 based on data size."
+"Interview: When avoid k-fold CV?","For time series or huge datasets where cost is high."

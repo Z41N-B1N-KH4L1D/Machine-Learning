@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you fit a RandomForestClassifier?","from sklearn.ensemble import RandomForestClassifier; model = RandomForestClassifier(n_estimators=100).fit(X, y)"
+"Code: How do you get feature importances?","model.feature_importances_"
+"Method: What is bagging?","Training models on bootstrapped samples and averaging."
+"Method: What is out-of-bag error?","Error computed on samples not in the bootstrap."
+"Concept: Why do random forests reduce variance?","Averaging many de-correlated trees lowers variance."
+"Concept: What is max_features?","Number of features considered at each split."
+"Interview: How do you tune the number of trees?","Increase until validation performance plateaus."
+"Interview: Pros and cons of random forests?","Strong accuracy but less interpretability and more compute."

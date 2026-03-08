@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you one-hot encode with pandas?","pd.get_dummies(df['category'])"
+"Code: How do you one-hot encode with scikit-learn?","OneHotEncoder(handle_unknown='ignore')"
+"Method: What is one-hot encoding?","Represent categories as binary indicator columns."
+"Method: How do you avoid the dummy variable trap?","Drop one category per feature or use drop='first'."
+"Concept: Why encode categorical variables?","Most models require numeric inputs."
+"Concept: What happens with high-cardinality categories?","Many columns are created, which can cause sparsity."
+"Interview: When prefer ordinal encoding?","When categories have an inherent order."
+"Interview: How do you handle unseen categories at inference?","Use handle_unknown='ignore' and align feature columns."

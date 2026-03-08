@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you use BaggingClassifier?","from sklearn.ensemble import BaggingClassifier; model = BaggingClassifier(base_estimator=..., n_estimators=10).fit(X, y)"
+"Code: How do you bag decision trees?","BaggingClassifier(base_estimator=DecisionTreeClassifier(), n_estimators=100)"
+"Method: What is bootstrap sampling?","Sampling with replacement to create training sets."
+"Method: How does bagging reduce variance?","It averages predictions from diverse models."
+"Concept: What is an ensemble model?","A combination of multiple models to improve performance."
+"Concept: Difference between bagging and boosting?","Bagging trains independently; boosting trains sequentially."
+"Interview: When is bagging useful?","For high-variance models like decision trees."
+"Interview: What metrics evaluate bagging?","Use the same metrics as the underlying task."

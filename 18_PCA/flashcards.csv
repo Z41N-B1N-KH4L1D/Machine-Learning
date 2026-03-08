@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you apply PCA in sklearn?","from sklearn.decomposition import PCA; pca = PCA(n_components=2); X_pca = pca.fit_transform(X)"
+"Code: How do you check explained variance ratio?","pca.explained_variance_ratio_"
+"Method: What does PCA optimize?","Maximize variance along principal components."
+"Method: How are PCA components computed?","Eigenvectors of the covariance matrix or via SVD."
+"Concept: What is dimensionality reduction?","Representing data with fewer features."
+"Concept: Why scale data before PCA?","So each feature contributes equally to variance."
+"Interview: When would you avoid PCA?","When interpretability of original features is critical."
+"Interview: How do you choose the number of components?","Use cumulative explained variance to reach a target."
