@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you fit a LinearRegression model in scikit-learn?","from sklearn.linear_model import LinearRegression; model = LinearRegression().fit(X, y)"
+"Code: How do you predict with a fitted linear regression?","y_pred = model.predict(X_new)"
+"Method: What is the normal equation for linear regression?","θ = (XᵀX)^{-1}Xᵀy"
+"Method: How is mean squared error computed?","MSE = (1/n) Σ (y - ŷ)^2"
+"Concept: What does the slope coefficient represent?","Expected change in target for a one-unit increase in a feature."
+"Concept: What is an intercept term?","Baseline prediction when all features are zero."
+"Interview: When is linear regression appropriate?","When the relationship is approximately linear and errors are well-behaved."
+"Interview: How do you detect multicollinearity?","Check high feature correlations or large VIF values."

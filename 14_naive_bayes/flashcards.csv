@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you train GaussianNB?","from sklearn.naive_bayes import GaussianNB; model = GaussianNB().fit(X, y)"
+"Code: How do you use MultinomialNB for text?","from sklearn.naive_bayes import MultinomialNB; model = MultinomialNB().fit(X, y)"
+"Method: What is Bayes' theorem?","P(A|B)=P(B|A)P(A)/P(B)"
+"Method: What is the naive assumption?","Features are conditionally independent given the class."
+"Concept: Why is Naive Bayes fast?","Parameters have closed-form estimates."
+"Concept: What does Laplace smoothing do?","Prevents zero probabilities for unseen events."
+"Interview: When is Naive Bayes a good choice?","Text classification with high-dimensional sparse features."
+"Interview: What are limitations of Naive Bayes?","Independence assumption can be unrealistic."

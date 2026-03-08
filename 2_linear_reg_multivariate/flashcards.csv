@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you fit a multivariate LinearRegression model?","model = LinearRegression().fit(X_multi, y)"
+"Code: How do you scale features before multivariate regression?","from sklearn.preprocessing import StandardScaler; X_scaled = StandardScaler().fit_transform(X)"
+"Method: What changes from univariate to multivariate regression?","X becomes a matrix with multiple columns and coefficients form a vector."
+"Method: How do you interpret a coefficient in multivariate regression?","It is the partial effect holding other features constant."
+"Concept: What is feature scaling and why use it?","It normalizes ranges to improve numerical stability and convergence."
+"Concept: What is the curse of dimensionality in regression?","Too many features can cause overfitting and poor generalization."
+"Interview: How do you handle correlated features?","Remove one, combine features, or use regularization."
+"Interview: What is adjusted R² used for?","Compare models while accounting for the number of predictors."

@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you use Ridge regression in sklearn?","from sklearn.linear_model import Ridge; model = Ridge(alpha=1.0).fit(X, y)"
+"Code: How do you use Lasso regression?","from sklearn.linear_model import Lasso; model = Lasso(alpha=0.1).fit(X, y)"
+"Method: What is the L2 penalty?","Add α Σ w^2 to the loss."
+"Method: What is the L1 penalty?","Add α Σ |w| to the loss."
+"Concept: How does regularization affect coefficients?","It shrinks them toward zero; L1 can set them to zero."
+"Concept: Why regularize models?","To reduce overfitting and improve generalization."
+"Interview: When choose Lasso vs Ridge?","Lasso for feature selection; Ridge for multicollinearity."
+"Interview: What happens if alpha is too large?","The model underfits with overly small coefficients."

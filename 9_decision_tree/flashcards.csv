@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you fit a DecisionTreeClassifier?","from sklearn.tree import DecisionTreeClassifier; model = DecisionTreeClassifier().fit(X, y)"
+"Code: How do you limit tree depth?","DecisionTreeClassifier(max_depth=3)"
+"Method: What is Gini impurity?","1 - Σ p_k^2"
+"Method: What is information gain?","Reduction in entropy after a split."
+"Concept: What is a leaf node?","A terminal node that holds the prediction."
+"Concept: Why prune trees?","To reduce overfitting and improve generalization."
+"Interview: What are pros and cons of decision trees?","They are interpretable but can overfit and be high variance."
+"Interview: How do trees handle continuous features?","By splitting on threshold values."

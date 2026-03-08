@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you fit logistic regression in scikit-learn?","from sklearn.linear_model import LogisticRegression; model = LogisticRegression().fit(X, y)"
+"Code: How do you get predicted probabilities?","model.predict_proba(X)[:, 1]"
+"Method: What is the sigmoid function?","σ(z)=1/(1+e^{-z})"
+"Method: What loss does logistic regression use?","Log loss, also called cross-entropy."
+"Concept: What does logistic regression output?","A probability for the positive class."
+"Concept: What is a decision boundary?","The threshold where predicted class changes."
+"Interview: How do you handle class imbalance?","Use class_weight, resampling, or threshold tuning."
+"Interview: Why scale features for logistic regression?","Scaling improves solver convergence and stability."

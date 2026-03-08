@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you fit KNeighborsClassifier?","from sklearn.neighbors import KNeighborsClassifier; model = KNeighborsClassifier(n_neighbors=5).fit(X, y)"
+"Code: How do you predict with k-NN?","y_pred = model.predict(X_new)"
+"Method: What is the k in k-NN?","The number of neighbors used for voting."
+"Method: How are distances computed in k-NN?","Often Euclidean distance, but other metrics are possible."
+"Concept: Is k-NN parametric?","No, it is an instance-based method."
+"Concept: Why scale features for k-NN?","Distance metrics are sensitive to feature scale."
+"Interview: How do you choose k?","Use validation; small k has high variance, large k has high bias."
+"Interview: What is prediction complexity for k-NN?","O(n) per query without indexing structures."
