@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you run GridSearchCV?","from sklearn.model_selection import GridSearchCV; grid = GridSearchCV(model, params, cv=5).fit(X, y)"
+"Code: How do you get the best parameters?","grid.best_params_"
+"Method: What is a parameter grid?","A dictionary of hyperparameter values to search."
+"Method: What is cross-validated grid search?","Evaluate each parameter combination using CV."
+"Concept: Why tune hyperparameters?","To improve model generalization performance."
+"Concept: What is overfitting to validation?","Choosing parameters that exploit validation noise."
+"Interview: When prefer RandomizedSearchCV?","Large search spaces with limited time."
+"Interview: How do you avoid leakage during grid search?","Use pipelines so preprocessing happens inside CV."

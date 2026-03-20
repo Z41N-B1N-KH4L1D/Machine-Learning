@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you fit KMeans?","from sklearn.cluster import KMeans; model = KMeans(n_clusters=3, random_state=42).fit(X)"
+"Code: How do you access cluster labels?","labels = model.labels_"
+"Method: What is the k-means objective?","Minimize sum of squared distances to centroids."
+"Method: What is the elbow method?","Plot inertia vs k to find diminishing returns."
+"Concept: What are centroids?","Mean position of points in each cluster."
+"Concept: Is k-means supervised?","No, it is an unsupervised clustering method."
+"Interview: When does k-means perform poorly?","With non-spherical clusters or varying densities."
+"Interview: How do you initialize centroids?","Use k-means++ to choose better starting points."

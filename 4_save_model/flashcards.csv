@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you save a scikit-learn model with joblib?","import joblib; joblib.dump(model, 'model.joblib')"
+"Code: How do you load a saved model?","model = joblib.load('model.joblib')"
+"Method: What should be saved alongside the model?","Preprocessing steps, feature order, and metadata."
+"Method: What is model serialization?","Converting a model object to bytes for storage."
+"Concept: Why persist trained models?","Reuse for inference without retraining each time."
+"Concept: What is model versioning?","Tracking model artifacts across updates and deployments."
+"Interview: How do you ensure reproducible predictions?","Save the full pipeline and random seeds."
+"Interview: What risk exists with pickle/joblib files?","Untrusted files can execute code; load only trusted sources."

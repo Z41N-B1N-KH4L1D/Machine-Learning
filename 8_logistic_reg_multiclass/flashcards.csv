@@ -1,0 +1,9 @@
+Question,Answer
+"Code: How do you fit multinomial logistic regression?","LogisticRegression(multi_class='multinomial', solver='lbfgs').fit(X, y)"
+"Code: How do you get class predictions?","model.predict(X)"
+"Method: What is one-vs-rest?","Train one binary classifier per class."
+"Method: What is the softmax function?","It converts class scores into probabilities."
+"Concept: How is multiclass handled in sklearn?","OvR by default or multinomial softmax with compatible solvers."
+"Concept: What is a confusion matrix?","A table of true vs predicted classes."
+"Interview: When choose OvR vs multinomial?","OvR for simplicity; multinomial for correlated classes."
+"Interview: How do you evaluate multiclass models?","Use macro/micro-averaged precision and recall."

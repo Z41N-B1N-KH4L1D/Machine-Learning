@@ -1,0 +1,9 @@
+Question,Answer
+"Code: What is the basic gradient descent weight update?","w = w - lr * grad"
+"Code: How do you compute the gradient for MSE loss?","grad = (2/n) Xᵀ(Xw - y)"
+"Method: What is the learning rate?","The step size used for each parameter update."
+"Method: Difference between batch and stochastic gradient descent?","Batch uses all data; stochastic uses one sample at a time."
+"Concept: What does convergence mean in gradient descent?","The loss stops decreasing significantly across iterations."
+"Concept: Why can gradient descent get stuck?","Non-convex surfaces have local minima and saddle points."
+"Interview: How would you tune the learning rate?","Try log-scale values or use a learning rate schedule."
+"Interview: Why scale features for gradient descent?","Uneven feature scales slow convergence and skew gradients."
