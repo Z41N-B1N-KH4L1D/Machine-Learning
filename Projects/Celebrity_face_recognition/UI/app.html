@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celebrity Face Classifier</title>
+    <link rel="stylesheet" href="./app.css" />
+</head>
+
+<body>
+    <main class="container">
+        <h1>Celebrity Face Classifier</h1>
+        <p class="hint">Upload an image with a clear front face.</p>
+
+        <input id="imageInput" type="file" accept="image/*" />
+        <img id="preview" class="preview hidden" alt="Selected image preview" />
+
+        <button id="classifyBtn" type="button">Classify</button>
+
+        <p id="status" class="status"></p>
+        <pre id="result" class="result"></pre>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
